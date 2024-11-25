@@ -4,4 +4,4 @@
 
   -cd Z4CX-DD0S
 
-  -python 
+  -python zacx-ddos.py
