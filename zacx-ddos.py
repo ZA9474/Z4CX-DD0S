@@ -56,8 +56,11 @@ while True:
      sent = sent + 1
      port = port + 1
      print(f"\033[97mSent:.. " +ip+ "\033[0m" )
+     print("\033[33m————————————————————————⟩⟩")
      print(f"\033[94mAttack:.. " +ip+ "\033[0m" )
+     print("\033[94m——————————————————————————⟩⟩")
      print(f"\033[95mRequest:... " +ip+ "\033[0m" )
+     print("\033[31m————————————————————————————⟩⟩")
      if port == 65534:
        port = 1
 
